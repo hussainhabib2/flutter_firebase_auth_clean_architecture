@@ -82,6 +82,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             TextFieldWidget(
                               title: 'Password',
                               textInputType: TextInputType.visiblePassword,
+                              obscureText: true,
                               controller: _passwordController,
                               validation: Helpers.requiredValidation,
                               hint: 'Password',
