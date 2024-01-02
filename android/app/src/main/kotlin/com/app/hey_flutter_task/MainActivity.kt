@@ -1,4 +1,4 @@
-package com.app.hey_flutter_task
+package com.app.flutter_firebase_auth_clean_architecture
 
 import io.flutter.embedding.android.FlutterActivity
 

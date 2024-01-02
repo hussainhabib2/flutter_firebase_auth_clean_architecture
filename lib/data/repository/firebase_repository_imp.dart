@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:hey_flutter_task/domain/repository/firebase_repository.dart';
+import 'package:flutter_firebase_auth_clean_architecture/domain/repository/firebase_repository.dart';
 
 class FirebaseRepositoryImp extends FirebaseRepository {
   final FirebaseFirestore firebaseFirestore;

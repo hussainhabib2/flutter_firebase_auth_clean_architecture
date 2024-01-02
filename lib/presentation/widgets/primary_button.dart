@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:hey_flutter_task/core/constants/app_colors.dart';
 
+import '../../constants/app_colors.dart';
 import 'custom_text.dart';
 
 class PrimaryButton extends StatelessWidget {

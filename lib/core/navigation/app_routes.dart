@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hey_flutter_task/presentation/screens/home/home_screen.dart';
-
-import '../../presentation/screens/login/check_user_screen.dart';
-import '../../presentation/screens/login/login_screen.dart';
-import '../../presentation/screens/signup/signup_screen.dart';
+import 'package:flutter_firebase_auth_clean_architecture/presentation/modules/home/views/home_screen.dart';
+import 'package:flutter_firebase_auth_clean_architecture/presentation/modules/login/views/check_user_screen.dart';
+import 'package:flutter_firebase_auth_clean_architecture/presentation/modules/login/views/login_screen.dart';
+import 'package:flutter_firebase_auth_clean_architecture/presentation/modules/signup/views/signup_screen.dart';
 
 class AppRoutes {
   static const String CHECK_USER_SCREEN = "/check_user_screen";

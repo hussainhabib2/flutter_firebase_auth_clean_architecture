@@ -1,10 +1,10 @@
 import 'dart:io';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hey_flutter_task/core/constants/app_constants.dart';
-import 'package:hey_flutter_task/core/helpers.dart';
-import 'package:hey_flutter_task/domain/usecase/firebase_usecases/authentication/sign_in_usecase.dart';
+import 'package:flutter_firebase_auth_clean_architecture/core/helpers.dart';
+import 'package:flutter_firebase_auth_clean_architecture/domain/usecase/firebase_usecases/authentication/sign_in_usecase.dart';
 
+import '../../../../constants/app_constants.dart';
 import '../../../../domain/usecase/firebase_usecases/authentication/check_user_usecase.dart';
 import 'login_state.dart';
 
@@ -44,7 +44,6 @@ class LoginCubit extends Cubit<LoginState> {
     } on SocketException catch (_) {
       Helpers.showToast(AppStrings.SOMETHING_WENT_WRONG);
     } catch (e) {
-      print(e);
       Helpers.showToast(AppStrings.SOMETHING_WENT_WRONG);
       emit(LoginFailure());
     }

@@ -2,11 +2,11 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hey_flutter_task/core/constants/app_constants.dart';
-import 'package:hey_flutter_task/presentation/screens/login/check_user_screen.dart';
-import 'package:hey_flutter_task/presentation/screens/login/login_cubit/login_cubit.dart';
-import 'package:hey_flutter_task/presentation/screens/signup/signup_cubit/signup_cubit.dart';
+import 'package:flutter_firebase_auth_clean_architecture/presentation/modules/login/cubit/login_cubit.dart';
+import 'package:flutter_firebase_auth_clean_architecture/presentation/modules/login/views/check_user_screen.dart';
+import 'package:flutter_firebase_auth_clean_architecture/presentation/modules/signup/cubit/signup_cubit.dart';
 
+import 'constants/app_constants.dart';
 import 'core/di/get_it_injection.dart' as getIt;
 import 'core/navigation/app_routes.dart';
 import 'firebase_options.dart';

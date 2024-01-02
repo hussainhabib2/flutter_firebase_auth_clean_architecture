@@ -1,4 +1,4 @@
-# hey_flutter_task
+# flutter_firebase_auth_clean_architecture
 
 A new Flutter project.
 

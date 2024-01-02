@@ -1,11 +1,10 @@
 import 'dart:io';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hey_flutter_task/domain/usecase/firebase_usecases/authentication/sign_up_usecase.dart';
-import 'package:hey_flutter_task/presentation/screens/signup/signup_cubit/signup_state.dart';
-
-import '../../../../core/constants/app_constants.dart';
-import '../../../../core/helpers.dart';
+import 'package:flutter_firebase_auth_clean_architecture/constants/app_constants.dart';
+import 'package:flutter_firebase_auth_clean_architecture/core/helpers.dart';
+import 'package:flutter_firebase_auth_clean_architecture/domain/usecase/firebase_usecases/authentication/sign_up_usecase.dart';
+import 'package:flutter_firebase_auth_clean_architecture/presentation/modules/signup/cubit/signup_state.dart';
 
 class SignupCubit extends Cubit<SignupState> {
   final SignUpUseCase signUpUseCase;
